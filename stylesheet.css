@@ -1,0 +1,35 @@
+/*Grid container*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 10px solid darkcyan;
+    background-color: lightcyan;
+}
+
+/*Individual grid square*/
+.tile {
+    border: 1px solid rgb(8, 64, 64);
+    background-color: lightcyan;
+    box-sizing: border-box;
+}
+
+.tile:hover {
+    background-color: lightblue;    /* Color change when hovered */
+}
+
+#new-grid-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #45a049;
+    color: white;
+    cursor: pointer;/*Changes cursor to pointer on hover */
+    transition: background-color 0.3s;/* Smooths transition for hover effect */
+}
+
+/* Change background color on hover */
+#new-grid-button:hover {
+    background-color: #4CAF50;;/* Darker green on hover */
+}
